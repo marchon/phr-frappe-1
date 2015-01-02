@@ -443,6 +443,7 @@ frappe.ui.form.ControlDate = frappe.ui.form.ControlData.extend({
 	set_datepicker: function() {
 		this.datepicker_options.dateFormat =
 			(frappe.boot.sysdefaults.date_format || 'yyyy-mm-dd').replace("yyyy", "yy")
+		console.log(this.$input)
 		this.$input.datepicker(this.datepicker_options);
 	},
 	parse: function(value) {
