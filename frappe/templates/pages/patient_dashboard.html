@@ -1,0 +1,278 @@
+
+{% block content %}
+<html lang="en">
+<head>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         
+        <link type="text/css" href="assets/css/dashboard.css" rel="stylesheet">
+        <link type="text/css" href="assets/css/theme.css" rel="stylesheet">
+        <link type="text/css" href="assets/css/images/icons/css/font-awesome.css" rel="stylesheet">
+        <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'
+            rel='stylesheet'>
+    </head>
+    <body>
+        <div class="navbar navbar-fixed-top">
+            <div class="container">
+            <div class="col-md-9">
+             <i class="icon-reorder shaded"></i></a><a class="brand" href="index.html">
+             Product Name</a>
+           </div>
+             <div class="col-md-3" style="float:left">{{ frappe.user }}| Logout</div>
+            </div>
+
+         </div>
+        <!-- /navbar -->
+        <!--<div class="wrapper">-->
+            <div class="app-page container" style="padding-right:18px;padding-left:3px">
+                <div>
+                    <div class="col-md-2" style="padding:0px">
+                        <div class="sidebar">
+                            <ul class="widget widget-usage unstyled" start="2">
+                                <li class="active"><a href="#"><h4><b>PHR Home
+                                </b></h4></a></li>
+                                <li class="active"><a href="#">My Profile
+                                </a></li>
+                                <li><a href="#">Sharing</a>
+                                </li>
+                             </ul>
+                            <!--/.widget-nav-->
+                            <ul class="widget  widget-usage unstyled1" start="2">
+                                <li><a href="#"><h4><b>Linked PHR's</b></h2></b><h4></a></li>
+                                <li><a href="ui-button-icon.html">Anand</a></li>
+                                <li><a href="ui-typography.html">Rohit</a></li>
+                                <li><a href="form.html">Saurabh</a></li>
+                                <li><a href="table.html">Roshan</a></li>
+                                <li><a href="charts.html">Gangadhar</a></li>
+                            </ul>
+                            <!--/.widget-nav-->
+                            <ul class="widget  widget-usage unstyled1" start="2">
+                                <li><a href="ui-button-icon.html"><h4><b>My HealthCare Providers</b></h4></a></li>
+                                <li><a href="ui-button-icon.html">1</a></li>
+                                <li><a href="ui-typography.html">2</a></li>
+                                <li><a href="form.html">3</a></li>
+                                <li><a href="table.html">4</a></li>
+                                <li><a href="charts.html">5</a></li>
+                            </ul>
+                            <ul class="widget  widget-usage unstyled1" start="2">
+                                <li><a href="ui-button-icon.html"><h4><b>My Health Records</b></h4></a></li>
+                                <li><a href="ui-button-icon.html">Events</a></li>
+                                <li><a href="ui-typography.html">Visits</a></li>
+                                <li><a href="form.html">Meditations</a></li>
+                                <li><a href="charts.html">Apointments</a></li>
+                                <li><a href="charts.html">Messages</a></li>
+                            </ul>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-8" style="display:inline-block">
+                        <div class="content">
+                            <div class="btn-controls">
+                                <ul class="nav nav-pills">
+                                    <li class="active" style="line-height:30px;margin-top:3%;margin-bottom:3%"><a href="#"><span style="float:left"><i class="icon-home"></i></span>&nbsp;&nbsp;Home</a></li>
+                                    <li class="active" style="line-height:30px;margin-top:3%;margin-bottom:3%;margin-left:3%"><a href="#"><span style="float:left"><i class="icon-h-sign"></i></span>&nbsp;&nbsp;Health Marketplace</a></li>
+                                </ul>   
+                            </div>
+                            <hr>
+                            <div>
+                               <form class="form-search" action="#" style="display:inline-block">
+                                  <input type="text" style="width:36%;margin-left:2%" placeholder="Doctor's Search">
+                                    <button class="btn" type="button">
+                                      <i class="icon-search"></i>
+                                    </button>
+                                    <input type="text" style="width:36%;margin-left:1%" placeholder="Quick Links">
+                                    <button class="btn" type="button">
+                                      <i class="icon-search"></i>
+                                    </button>
+                                </form>
+                              </div>
+                            
+                            <div class="col-md-6" style="padding:1px;margin-top:5%;" >
+                                  <div class="panel panel-primary">
+                                      <div class="panel-heading">Disease Monitoring<span style="float:right"><i class="icon-remove"></i></span></div>
+                                          <div class="panel-body">
+                                            <table class="table table-striped" style="padding=0px;width=100%">
+                                                <thead style="padding=0px;">
+                                                  <tr style="padding=0px;">
+                                                    <th>#</th>
+                                                    <th>Name</th>
+                                                    <th>Age</th>
+                                                    <th>Disease</th>
+                                                 </tr>
+                                                  </thead>
+                                                    <tbody style="padding=0px;">
+                                                      <tr style="padding=0px;">
+                                                        <td>1</td>
+                                                        <td>John</td>
+                                                        <td>30</td>
+                                                        <td>hsa</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>2</td>
+                                                        <td>Bill</td>
+                                                        <td>25</td>
+                                                        <td>ta</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>3</td>
+                                                        <td>Marry</td>
+                                                        <td>60</td>
+                                                        <td>sa</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                          </div>
+                                        </div>
+                
+                                </div>       
+                            </div>
+                            <div class="col-md-6" style="padding:1px;margin-top:1.5%;" >
+                                  <div class="panel panel-primary">
+                                      <div class="panel-heading">Events<span style="float:right"><i class="icon-remove"></i></span></div>
+                                          <div class="panel-body">
+                                            <table class="table table-striped" style="padding=0px;width=100%">
+                                                <thead style="padding=0px;">
+                                                  <tr style="padding=0px;">
+                                                    <th>#</th>
+                                                    <th>Event</th>
+                                                    
+                                                 </tr>
+                                                  </thead>
+                                                    <tbody style="padding=0px;">
+                                                      <tr style="padding=0px;">
+                                                        <td>1</td>
+                                                        <td>Checkup</td>
+                                                      <tr>
+                                                        <td>2</td>
+                                                        <td>OPD</td>
+                                                     </tr>
+                                                      <tr>
+                                                        <td>3</td>
+                                                        <td>Operation</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                          </div>
+                                       
+                
+                                </div>       
+                            </div>
+                            <div class="col-md-6" style="padding:1px;margin-top:3%;" >
+                                  <div class="panel panel-primary">
+                                      <div class="panel-heading">Appointments<span style="float:right"><i class="icon-remove"></i></span></div>
+                                          <div class="panel-body">
+                                            <table class="table table-striped" style="padding=0px;width=100%">
+                                                <thead style="padding=0px;">
+                                                  <tr style="padding=0px;">
+                                                    <th>#</th>
+                                                    <th>Name</th>
+                                                    <th>Time</th>
+                                                    
+                                                 </tr>
+                                                  </thead>
+                                                    <tbody style="padding=0px;">
+                                                      <tr style="padding=0px;">
+                                                        <td>1</td>
+                                                        <td>Suyash</td>
+                                                        <td>12:00</td>
+                                                      <tr>
+                                                        <td>2</td>
+                                                        <td>Gangadhar</td>
+                                                        <td>2:00</td>
+                                                     </tr>
+                                                      <tr>
+                                                        <td>3</td>
+                                                        <td>Operation</td>
+                                                        <td>5:00</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                          </div>
+                                       
+                
+                                </div>       
+                            </div>
+                            <div class="col-md-6" style="padding:0px;margin-top:3%;" >
+                                  <div class="panel panel-primary">
+                                      <div class="panel-heading">Medications<span style="float:right"><i class="icon-remove"></i></span></div>
+                                          <div class="panel-body">
+                                            <table class="table table-striped" style="padding=0px;width=100%">
+                                                <thead style="padding=0px;">
+                                                  <tr style="padding=0px;">
+                                                    <th>#</th>
+                                                    <th>Name</th>
+                                                    
+                                                 </tr>
+                                                  </thead>
+                                                    <tbody style="padding=0px;">
+                                                      <tr style="padding=0px;">
+                                                        <td>1</td>
+                                                        <td>Rohit</td>
+                                                      <tr>
+                                                        <td>2</td>
+                                                        <td>Saurabh</td>
+                                                     </tr>
+                                                      <tr>
+                                                        <td>3</td>
+                                                        <td>Anand</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                          </div>
+                                       
+                
+                                </div>       
+                            </div>
+                          </div>
+                            <!--/.module-->
+                        </div>
+                        <!--/.content-->
+                   
+                     <div class="col-md-2" style="display:inline-block">
+                        
+                                    <ul class="widget widget-usage unstyled span4" start="2">
+                                        <li>
+                                            <p>
+                                                <strong>Emergency details</strong> 
+                                            </p>
+                                            
+                                        </li>
+                                        <li></li>
+                                        
+                                    </ul>
+                                    <ul class="widget widget-usage unstyled span4" start="2">
+                                        <li>
+                                            <p>
+                                                <strong>To Do List's</strong> 
+                                            </p>
+                                            
+                                        </li>
+                                        <li></li>
+                                        
+                                    </ul>
+                                    <div>
+                                           <p>
+                                                <strong>Advertisements</strong> 
+                                           </p>
+                                           <image src="files/images.jpg">
+                                            
+                                        
+                                    </div>
+                        </div>
+                <!--</div>-->
+           </div>
+            <!--/.container-->
+        </div>
+        <!--/.wrapper-->
+        <div class="footer">
+            <div class="container">
+                
+            </div>
+        </div>
+        
+      
+    </body>
+{% endblock %}
+
